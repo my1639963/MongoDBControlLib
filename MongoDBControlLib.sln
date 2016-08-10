@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB.ControlLib.Core", "src\MongoDB.ControlLib.Core\MongoDB.ControlLib.Core.csproj", "{8603948A-2D89-42FD-82DD-15E7DA121525}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FA4A767D-E4CB-40C1-BB44-DC2A6221DF37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB.ControlLib.Driver", "src\MongoDB.ControlLib.Driver\MongoDB.ControlLib.Driver.csproj", "{B795BF31-E164-4241-A77C-B7A3073F7C58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8603948A-2D89-42FD-82DD-15E7DA121525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8603948A-2D89-42FD-82DD-15E7DA121525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8603948A-2D89-42FD-82DD-15E7DA121525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8603948A-2D89-42FD-82DD-15E7DA121525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B795BF31-E164-4241-A77C-B7A3073F7C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B795BF31-E164-4241-A77C-B7A3073F7C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B795BF31-E164-4241-A77C-B7A3073F7C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B795BF31-E164-4241-A77C-B7A3073F7C58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8603948A-2D89-42FD-82DD-15E7DA121525} = {FA4A767D-E4CB-40C1-BB44-DC2A6221DF37}
+		{B795BF31-E164-4241-A77C-B7A3073F7C58} = {FA4A767D-E4CB-40C1-BB44-DC2A6221DF37}
+	EndGlobalSection
+EndGlobal
