@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FA4A767D-E4C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB.ControlLib.Driver", "src\MongoDB.ControlLib.Driver\MongoDB.ControlLib.Driver.csproj", "{B795BF31-E164-4241-A77C-B7A3073F7C58}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E765C387-6ED2-43CD-BA31-C5883F51C063}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB.ControlLib.Driver.Test", "test\MongoDB.ControlLib.Driver.Test\MongoDB.ControlLib.Driver.Test.csproj", "{883A9E7D-CAC8-4C59-800D-2E22EC59EF58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{B795BF31-E164-4241-A77C-B7A3073F7C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B795BF31-E164-4241-A77C-B7A3073F7C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B795BF31-E164-4241-A77C-B7A3073F7C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{883A9E7D-CAC8-4C59-800D-2E22EC59EF58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{883A9E7D-CAC8-4C59-800D-2E22EC59EF58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{883A9E7D-CAC8-4C59-800D-2E22EC59EF58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{883A9E7D-CAC8-4C59-800D-2E22EC59EF58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +38,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8603948A-2D89-42FD-82DD-15E7DA121525} = {FA4A767D-E4CB-40C1-BB44-DC2A6221DF37}
 		{B795BF31-E164-4241-A77C-B7A3073F7C58} = {FA4A767D-E4CB-40C1-BB44-DC2A6221DF37}
+		{883A9E7D-CAC8-4C59-800D-2E22EC59EF58} = {E765C387-6ED2-43CD-BA31-C5883F51C063}
 	EndGlobalSection
 EndGlobal

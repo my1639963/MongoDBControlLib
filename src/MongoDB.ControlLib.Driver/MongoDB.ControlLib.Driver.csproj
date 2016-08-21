@@ -56,10 +56,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IDriver.cs" />
+    <Compile Include="Filter.cs" />
     <Compile Include="MongoCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SyncController.cs" />
+    <Compile Include="CollectionFactory.cs" />
+    <Compile Include="UpdateParameter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
